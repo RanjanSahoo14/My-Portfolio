@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranjan Sahoo - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.png" alt="Ranjan Sahoo" class="logo me-2" />
+
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>           
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-sm btn-outline-light ms-2"
+                onclick="toggleDarkMode()"
+              >
+                🌙
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+            <img src="images/Ranjan.jpg" alt="Ranjan Sahoo" class="rounded-circle mb-3" width="150" height="150">
+            <h1 class="hero-heading">Hi, I'm Ranjan Sahoo</h1>
+            <p class="sub-heading">MCA Graduate | Web Developer | Programmer</p>
+      <a class="btn btn-light mt-3" href="pdf/Ranjan Sahoo Resume.pdf" download
+        >📄 Download Resume</a
+      >
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 section-heading">About Me</h2>
+        <hr>
+        <p class="lead text-center">
+          I am a passionate web developer, recently completed my MCA from
+          University of North Bengal and hold a BCA from Hijli College.
+          I enjoy building user-friendly web applications and continuously
+          improving my skills and constantly seeking opportunities to learn and grow in this ever-evolving field. My journey began with a fascination for technology and a burning desire to leave a lasting impact on the digital landscape. From front-end development to back-end systems, I have honed my skills in various technologies to provide comprehensive and scalable solutions.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 section-heading">Education</h2>
+        <hr>
+        <div class="edu-card">
+          <h5>MCA - Master of Computer Applications</h5>
+          <p><strong>University of North Bengal</strong> | 2022 - 2024 | 7.65 CGPA</p>
+        </div>
+        <div class="edu-card">
+          <h5>BCA - Bachelor of Computer Applications</h5>
+          <p>
+            <strong>Hijli College, Vidyasagar University</strong> | 2019 - 2022
+            | 82%
+          </p>
+        </div>
+         <div class="edu-card">
+          <h5>Higher Secondery (H.S)</h5>
+          <p><strong>Dantan H.S Multipurpose School</strong> | 2017 - 2019 | 73.60%</p>
+        </div>
+        <div class="edu-card">
+          <h5>Secondery (M.P)</h5>
+          <p><strong>Dantan H.S Multipurpose School</strong> | 2016 - 2017 | 74.71%</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <hr>
+        <div class="row text-center">
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fab fa-html5 text-danger skill-icon"></i>
+            <p>HTML</p>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fab fa-css3-alt text-primary skill-icon"></i>
+            <p>CSS</p>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fab fa-js text-warning skill-icon"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fab fa-bootstrap text-purple skill-icon"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fab fa-php text-success skill-icon"></i>
+            <p>PHP</p>
+          </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fas fa-database text-secondary skill-icon"></i>
+            <p>Database</p>
+            </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fas fa-java text-secondary skill-icon"></i>
+            <p>Java</p>
+            </div>
+          <div class="col-md-2 col-6 mb-4">
+            <i class="fas fa-code text-secondary skill-icon"></i>
+            <p>C++</p>
+            </div>
+           <div class="col-md-2 col-6 mb-4">
+            <i class="fas fa-c text-secondary skill-icon"></i>
+            <p>C</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 section-heading">Projects</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">i-Discuss Forum</h5>
+                <p class="card-text">
+                  A PHP-based coding forum where users can ask and answer
+                  questions.
+                </p>
+                <a href="http://i-discuss.lovestoblog.com" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">University Medical System</h5>
+                <p class="card-text">
+                  A web app for university medical appointments using HTML,CSS,js & Firebase.
+                </p>
+                <a href="#" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-dark text-white py-5">
+      <div class="container text-center">
+        <h2 class="mb-4 section-heading">Connect With Me</h2>
+        <hr>
+        <div class="social-icons">
+          <a href="https://github.com/RanjanSahoo14" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ranjan-sahoo-a2b9a9241/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- <a href="mailto:fbk151518@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a> -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-3 bg-secondary text-white">
+      <p class="mb-0">&copy; 2025 Ranjan Sahoo | All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const isDark = localStorage.getItem("theme") === "dark";
+    if (isDark) {
+      document.body.classList.add("dark-mode");
+      updateDarkModeButton(true);
+    }
+  });
+
+  function toggleDarkMode() {
+    const isDark = document.body.classList.toggle("dark-mode");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    updateDarkModeButton(isDark);
+  }
+
+  function updateDarkModeButton(isDark) {
+    const button = document.querySelector("button[onclick='toggleDarkMode()']");
+    if (button) {
+      button.innerHTML = isDark ? "☀️" : "🌙";
+    }
+  }
+</script>
+  </body>
+  </html>
